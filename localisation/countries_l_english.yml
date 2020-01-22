@@ -2210,14 +2210,14 @@ l_english:
 
  #EMC Mod Edits Start Here!
 
- CAS_fascism:2 "Cascadia"
- CAS_fascism_DEF:2 "Cascadia"
+ CAS_fascism:2 "Cascadian Empire"
+ CAS_fascism_DEF:2 "the Empire of Cascadia"
  CAS_democratic:0 "Cascadia"
- CAS_democratic_DEF:0 "Cascadia"
- CAS_neutrality:1 "Cascadia"
- CAS_neutrality_DEF:1 "Cascadia"
- CAS_communism:2 "Cascadia"
- CAS_communism_DEF:2 "Cascadia"
+ CAS_democratic_DEF:0 "the Republic of Cascadia"
+ CAS_neutrality:1 "Kingdom of Cascadia"
+ CAS_neutrality_DEF:1 "the Kingdom of Cascadia"
+ CAS_communism:2 "People's Republic of Cascadia"
+ CAS_communism_DEF:2 "the People's Republic of Cascadia"
  CAS_fascism_ADJ:1 "Cascadian"
  CAS_democratic_ADJ:0 "Cascadian"
  CAS_neutrality_ADJ:1 "Cascadian"
