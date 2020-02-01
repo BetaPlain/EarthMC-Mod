@@ -443,46 +443,6 @@ KEN = {
 	color = rgb { 145 103 14 }
 	color_ui = rgb { 145 103 14 }
 }
-ZIM = {
-	color = rgb { 7 7 239 }
-	color_ui = rgb { 7 7 239 }
-}
-BOT = {
-	color = rgb { 11 132 112 }
-	color_ui = rgb { 11 132 112 }
-}
-PAK = {
-	color = rgb { 21 38 66 }
-	color_ui = rgb { 21 38 66 }
-}
-WGR = {
-    color = rgb { 195 236 230 } # The colors are set to be more are less what we are used to
-    color_ui = rgb { 225 255 255 }
-}
-DDR = {
-    color = rgb { 120 150 80 }
-    color_ui = rgb { 150 180 120 }
-}
-KOR = {
-	color = rgb { 255  240  195 }
-	color_ui = rgb { 255 248 229 }	
-}
-ISR = {
-	color = rgb { 152  130  191 }
-	color_ui = rgb { 152  130  191 }
-}
-CSA = {
-	color = rgb { 145 163 176  }
-	color_ui = rgb { 186 205 219 }
-}
-
-# EarthMC Mod edits and the D countries below
-
-# Cascadia (CAS)
-CAS = {
-	color = rgb { 67 123 237  }
-	color_ui = rgb { 186 205 219 }
-}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
@@ -543,3 +503,44 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
+
+
+ZIM = {
+	color = rgb { 7 7 239 }
+	color_ui = rgb { 7 7 239 }
+}
+BOT = {
+	color = rgb { 11 132 112 }
+	color_ui = rgb { 11 132 112 }
+}
+PAK = {
+	color = rgb { 21 38 66 }
+	color_ui = rgb { 21 38 66 }
+}
+WGR = {
+    color = rgb { 195 236 230 } # The colors are set to be more are less what we are used to
+    color_ui = rgb { 225 255 255 }
+}
+DDR = {
+    color = rgb { 120 150 80 }
+    color_ui = rgb { 150 180 120 }
+}
+KOR = {
+	color = rgb { 255  240  195 }
+	color_ui = rgb { 255 248 229 }	
+}
+ISR = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
+}
+CSA = {
+	color = rgb { 145 163 176  }
+	color_ui = rgb { 186 205 219 }
+}
+UCL = {
+	color = rgb { 0 0 0  }
+	color_ui = rgb { 186 205 219 }
+}
+CAS = {
+	color = rgb { 67 123 237  }
+	color_ui = rgb { 186 205 219 }

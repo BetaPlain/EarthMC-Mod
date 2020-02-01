@@ -1,0 +1,376 @@
+focus_tree = {
+	id = cas_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CAS
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = CAS
+		}
+	}
+	continuous_focus_position = { x = 50 y = 1600 }
+
+	default = no
+
+	focus = {
+		id = CAS_fix_the_gold_issue
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		x = 8
+		y = 0
+		offset = {
+			x = 0
+			y = 0
+			trigger = {
+				not = { has_dlc = "Man the Guns" }
+			}
+		}
+		cost = 5
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+		focus = {
+		id = CAS_another_donation_campaign
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = CAS_fix_the_gold_issue }
+		x = 6
+		y = 1
+		offset = {
+			x = 0
+			y = 0
+			trigger = {
+				not = { has_dlc = "Man the Guns" }
+			}
+		}
+		cost = 10
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 250
+		}
+	}	
+
+		focus = {
+		id = CAS_fund_town_donation_centers
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = CAS_another_donation_campaign }
+		x = 6
+		y = 2
+		offset = {
+			x = 0
+			y = 0
+			trigger = {
+				not = { has_dlc = "Man the Guns" }
+			}
+		}
+		cost = 10
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}	
+
+			focus = {
+		id = CAS_finish_the_capital_building
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = CAS_fund_town_donation_centers }
+		x = 6
+		y = 3
+		offset = {
+			x = 0
+			y = 0
+			trigger = {
+				not = { has_dlc = "Man the Guns" }
+			}
+		}
+		cost = 10
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}	
+
+			focus = {
+		id = CAS_support_cascadian_businesses
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = CAS_fix_the_gold_issue }
+		x = 10
+		y = 1
+		offset = {
+			x = 0
+			y = 0
+			trigger = {
+				not = { has_dlc = "Man the Guns" }
+			}
+		}
+		cost = 10
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}	
+
+				focus = {
+		id = CAS_continue_the_support
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = CAS_support_cascadian_businesses }
+		x = 10
+		y = 2
+		offset = {
+			x = 0
+			y = 0
+			trigger = {
+				not = { has_dlc = "Man the Guns" }
+			}
+		}
+		cost = 10
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}	
+
+				focus = {
+		id = CAS_focus_on_highways
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = CAS_support_cascadian_businesses }
+		x = 13
+		y = 2
+		offset = {
+			x = 0
+			y = 0
+			trigger = {
+				not = { has_dlc = "Man the Guns" }
+			}
+		}
+		cost = 5
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}	
+					focus = {
+		id = CAS_line_autumnshire
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = CAS_focus_on_highways }
+		x = 13
+		y = 3
+		offset = {
+			x = 0
+			y = 0
+			trigger = {
+				not = { has_dlc = "Man the Guns" }
+			}
+		}
+		cost = 2
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}	
+						focus = {
+		id = CAS_line_port_angeles
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = CAS_line_autumnshire }
+		x = 13
+		y = 4
+		offset = {
+			x = 0
+			y = 0
+			trigger = {
+				not = { has_dlc = "Man the Guns" }
+			}
+		}
+		cost = 2
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}	
+
+							focus = {
+		id = CAS_line_astoria
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = CAS_line_port_angeles }
+		x = 13
+		y = 5
+		offset = {
+			x = 0
+			y = 0
+			trigger = {
+				not = { has_dlc = "Man the Guns" }
+			}
+		}
+		cost = 2
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}	
+}

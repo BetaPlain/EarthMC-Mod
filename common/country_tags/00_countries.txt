@@ -186,4 +186,7 @@ NIR = "countries/Northern Ireland.txt"
 
 # EarthMC Mod Edits Below
 
+#Cascadia, Northwest United States/SW Canada
 CAS = "countries/Cascadia.txt"
+#Unclaimed Land, Litterally Everywhere but North America
+UCL = "countries/Unclaimed Land.txt"

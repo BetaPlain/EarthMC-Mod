@@ -2209,8 +2209,6 @@ l_english:
  NIR_communism_ADJ:1 "North Irish"
 
  #EMC Mod Edits Start Here!
-
- CAS_fascism:2 "Cascadian"
  CAS_fascism_DEF:2 "Cascadia"
  CAS_democratic:0 "Cascadia"
  CAS_democratic_DEF:0 "Cascadia"
@@ -2222,4 +2220,16 @@ l_english:
  CAS_democratic_ADJ:0 "Cascadian"
  CAS_neutrality_ADJ:1 "Cascadian"
  CAS_communism_ADJ:1 "Cascadian"
- 
+ # Unclaimed Land
+ UCL_fascism:0 "Unclaimed Land"
+ UCL_fascism_DEF:0 "the Unclaimed Land"
+ UCL_democratic:0 "Unclaimed Land"
+ UCL_democratic_DEF:0 "the Unclaimed Land"
+ UCL_neutrality:1 "Unclaimed Land"
+ UCL_neutrality_DEF:1 "the Unclaimed Land"
+ UCL_communism:0 "Unclaimed Land"
+ UCL_communism_DEF:0 "the Unclaimed Land"
+ UCL_fascism_ADJ:0 "Everybody Elsians"
+ UCL_democratic_ADJ:0 "Everybody Elsians"
+ UCL_neutrality_ADJ:0 "Everybody Elsians"
+ UCL_communism_ADJ:0 "Everybody Elsians"
