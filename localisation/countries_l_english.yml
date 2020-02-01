@@ -2209,9 +2209,6 @@ l_english:
  NIR_communism_ADJ:1 "North Irish"
 
  #EMC Mod Edits Start Here!
-
-# Cascadia
- CAS_fascism:2 "Cascadia"
  CAS_fascism_DEF:2 "Cascadia"
  CAS_democratic:0 "Cascadia"
  CAS_democratic_DEF:0 "Cascadia"
