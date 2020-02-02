@@ -93,6 +93,9 @@ set_popularities = {
 	democratic = 100
 }
 
+create_faction = "Republic of Cascadia"
+add_to_faction = CAS
+
 create_country_leader = {
 	name = "Estonian Mapping"
 	desc = "ANTE_PAVELIC_DESC"
